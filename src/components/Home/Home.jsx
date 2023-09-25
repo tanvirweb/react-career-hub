@@ -1,8 +1,12 @@
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+import JobsCategory from "../JobsCategory/JobsCategory";
+
 const Home = () => {
     return (
-        <div>
-            <p>Home Page</p>
-        </div>
+        <main className="px-4">
+            <JobsCategory></JobsCategory>
+            <FeaturedJobs></FeaturedJobs>
+        </main>
     );
 };
 
